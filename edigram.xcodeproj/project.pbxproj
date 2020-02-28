@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06742F814C802997D5CA3CD7 /* Pods_edigram_edigramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7BD5CC94FC5C3DD3AE7665 /* Pods_edigram_edigramUITests.framework */; };
 		398CB7822408A09D00A9A5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB7812408A09D00A9A5FF /* AppDelegate.swift */; };
-		398CB7842408A09D00A9A5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB7832408A09D00A9A5FF /* ViewController.swift */; };
 		398CB7872408A09D00A9A5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398CB7852408A09D00A9A5FF /* Main.storyboard */; };
 		398CB7892408A09E00A9A5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398CB7882408A09E00A9A5FF /* Assets.xcassets */; };
 		398CB78C2408A09E00A9A5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398CB78A2408A09E00A9A5FF /* LaunchScreen.storyboard */; };
 		398CB7972408A09E00A9A5FF /* edigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB7962408A09E00A9A5FF /* edigramTests.swift */; };
 		398CB7A22408A09E00A9A5FF /* edigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB7A12408A09E00A9A5FF /* edigramUITests.swift */; };
+		39AB28832408AC5400F20BA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB28822408AC5400F20BA7 /* LoginViewController.swift */; };
+		39AB28852408AC6200F20BA7 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB28842408AC6200F20BA7 /* FeedViewController.swift */; };
+		39FBB3BF2408B7C3007D3FD3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBB3BE2408B7C3007D3FD3 /* CameraViewController.swift */; };
+		39FBB3C12408C085007D3FD3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBB3C02408C085007D3FD3 /* PostCell.swift */; };
+		9CA023423B84AA33212156AC /* Pods_edigram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24168AA4E5DBB5DCF5B4388A /* Pods_edigram.framework */; };
+		E61717BE069009345BF0155E /* Pods_edigramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57027B96342693A77FA765D /* Pods_edigramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24168AA4E5DBB5DCF5B4388A /* Pods_edigram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edigram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		398CB77E2408A09D00A9A5FF /* edigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398CB7812408A09D00A9A5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		398CB7832408A09D00A9A5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		398CB7862408A09D00A9A5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		398CB7882408A09E00A9A5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		398CB78B2408A09E00A9A5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,18 @@
 		398CB79D2408A09E00A9A5FF /* edigramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edigramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398CB7A12408A09E00A9A5FF /* edigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edigramUITests.swift; sourceTree = "<group>"; };
 		398CB7A32408A09E00A9A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AB28822408AC5400F20BA7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		39AB28842408AC6200F20BA7 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		39FBB3BE2408B7C3007D3FD3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		39FBB3C02408C085007D3FD3 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3FC0C84A0EDB1B9BED308643 /* Pods-edigram-edigramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigram-edigramUITests.debug.xcconfig"; path = "Target Support Files/Pods-edigram-edigramUITests/Pods-edigram-edigramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E764FBF2401F8638FCE2C2D /* Pods-edigram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigram.release.xcconfig"; path = "Target Support Files/Pods-edigram/Pods-edigram.release.xcconfig"; sourceTree = "<group>"; };
+		5F18D264DD3E1C7208DC8AAF /* Pods-edigramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigramTests.debug.xcconfig"; path = "Target Support Files/Pods-edigramTests/Pods-edigramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61FF64D048EAD7C39B975890 /* Pods-edigram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigram.debug.xcconfig"; path = "Target Support Files/Pods-edigram/Pods-edigram.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7BD5CC94FC5C3DD3AE7665 /* Pods_edigram_edigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edigram_edigramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DBCBFE5740B610A228A1D5 /* Pods-edigram-edigramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigram-edigramUITests.release.xcconfig"; path = "Target Support Files/Pods-edigram-edigramUITests/Pods-edigram-edigramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C57027B96342693A77FA765D /* Pods_edigramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edigramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BE5F79C8218F99FEB7176E /* Pods-edigramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigramTests.release.xcconfig"; path = "Target Support Files/Pods-edigramTests/Pods-edigramTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA023423B84AA33212156AC /* Pods_edigram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61717BE069009345BF0155E /* Pods_edigramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06742F814C802997D5CA3CD7 /* Pods_edigram_edigramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				398CB7952408A09E00A9A5FF /* edigramTests */,
 				398CB7A02408A09E00A9A5FF /* edigramUITests */,
 				398CB77F2408A09D00A9A5FF /* Products */,
+				F997B5BDCF3403D0C2D3CB32 /* Pods */,
+				44F696B50C1733BF16D1810F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				398CB7812408A09D00A9A5FF /* AppDelegate.swift */,
-				398CB7832408A09D00A9A5FF /* ViewController.swift */,
 				398CB7852408A09D00A9A5FF /* Main.storyboard */,
 				398CB7882408A09E00A9A5FF /* Assets.xcassets */,
 				398CB78A2408A09E00A9A5FF /* LaunchScreen.storyboard */,
 				398CB78D2408A09E00A9A5FF /* Info.plist */,
+				39AB28822408AC5400F20BA7 /* LoginViewController.swift */,
+				39AB28842408AC6200F20BA7 /* FeedViewController.swift */,
+				39FBB3BE2408B7C3007D3FD3 /* CameraViewController.swift */,
+				39FBB3C02408C085007D3FD3 /* PostCell.swift */,
 			);
 			path = edigram;
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = edigramUITests;
 			sourceTree = "<group>";
 		};
+		44F696B50C1733BF16D1810F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24168AA4E5DBB5DCF5B4388A /* Pods_edigram.framework */,
+				8E7BD5CC94FC5C3DD3AE7665 /* Pods_edigram_edigramUITests.framework */,
+				C57027B96342693A77FA765D /* Pods_edigramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F997B5BDCF3403D0C2D3CB32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61FF64D048EAD7C39B975890 /* Pods-edigram.debug.xcconfig */,
+				4E764FBF2401F8638FCE2C2D /* Pods-edigram.release.xcconfig */,
+				3FC0C84A0EDB1B9BED308643 /* Pods-edigram-edigramUITests.debug.xcconfig */,
+				97DBCBFE5740B610A228A1D5 /* Pods-edigram-edigramUITests.release.xcconfig */,
+				5F18D264DD3E1C7208DC8AAF /* Pods-edigramTests.debug.xcconfig */,
+				E1BE5F79C8218F99FEB7176E /* Pods-edigramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398CB7A62408A09E00A9A5FF /* Build configuration list for PBXNativeTarget "edigram" */;
 			buildPhases = (
+				E163D1217922B3181D31CBC5 /* [CP] Check Pods Manifest.lock */,
 				398CB77A2408A09D00A9A5FF /* Sources */,
 				398CB77B2408A09D00A9A5FF /* Frameworks */,
 				398CB77C2408A09D00A9A5FF /* Resources */,
+				E4EC2A9E8BC31E05F8F981CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398CB7A92408A09E00A9A5FF /* Build configuration list for PBXNativeTarget "edigramTests" */;
 			buildPhases = (
+				63380EE621372DC1657455F5 /* [CP] Check Pods Manifest.lock */,
 				398CB78E2408A09E00A9A5FF /* Sources */,
 				398CB78F2408A09E00A9A5FF /* Frameworks */,
 				398CB7902408A09E00A9A5FF /* Resources */,
@@ -167,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398CB7AC2408A09E00A9A5FF /* Build configuration list for PBXNativeTarget "edigramUITests" */;
 			buildPhases = (
+				B4CAF51EA3A5E4DE23C2A4CA /* [CP] Check Pods Manifest.lock */,
 				398CB7992408A09E00A9A5FF /* Sources */,
 				398CB79A2408A09E00A9A5FF /* Frameworks */,
 				398CB79B2408A09E00A9A5FF /* Resources */,
+				9FFD641BE8F9F8C6DF77846D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +305,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63380EE621372DC1657455F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-edigramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFD641BE8F9F8C6DF77846D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-edigram-edigramUITests/Pods-edigram-edigramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-edigram-edigramUITests/Pods-edigram-edigramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-edigram-edigramUITests/Pods-edigram-edigramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CAF51EA3A5E4DE23C2A4CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-edigram-edigramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E163D1217922B3181D31CBC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-edigram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4EC2A9E8BC31E05F8F981CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-edigram/Pods-edigram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-edigram/Pods-edigram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-edigram/Pods-edigram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		398CB77A2408A09D00A9A5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				398CB7842408A09D00A9A5FF /* ViewController.swift in Sources */,
+				39AB28832408AC5400F20BA7 /* LoginViewController.swift in Sources */,
+				39FBB3BF2408B7C3007D3FD3 /* CameraViewController.swift in Sources */,
+				39AB28852408AC6200F20BA7 /* FeedViewController.swift in Sources */,
 				398CB7822408A09D00A9A5FF /* AppDelegate.swift in Sources */,
+				39FBB3C12408C085007D3FD3 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +590,7 @@
 		};
 		398CB7A72408A09E00A9A5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FF64D048EAD7C39B975890 /* Pods-edigram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +608,7 @@
 		};
 		398CB7A82408A09E00A9A5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E764FBF2401F8638FCE2C2D /* Pods-edigram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +626,7 @@
 		};
 		398CB7AA2408A09E00A9A5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F18D264DD3E1C7208DC8AAF /* Pods-edigramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +647,7 @@
 		};
 		398CB7AB2408A09E00A9A5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BE5F79C8218F99FEB7176E /* Pods-edigramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +668,7 @@
 		};
 		398CB7AD2408A09E00A9A5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC0C84A0EDB1B9BED308643 /* Pods-edigram-edigramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +688,7 @@
 		};
 		398CB7AE2408A09E00A9A5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DBCBFE5740B610A228A1D5 /* Pods-edigram-edigramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
