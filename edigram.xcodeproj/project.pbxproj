@@ -16,6 +16,7 @@
 		398CB7A22408A09E00A9A5FF /* edigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB7A12408A09E00A9A5FF /* edigramUITests.swift */; };
 		39AB28832408AC5400F20BA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB28822408AC5400F20BA7 /* LoginViewController.swift */; };
 		39AB28852408AC6200F20BA7 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB28842408AC6200F20BA7 /* FeedViewController.swift */; };
+		39CF13362411DDB200F096CC /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CF13352411DDB200F096CC /* CommentCell.swift */; };
 		39FBB3BF2408B7C3007D3FD3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBB3BE2408B7C3007D3FD3 /* CameraViewController.swift */; };
 		39FBB3C12408C085007D3FD3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FBB3C02408C085007D3FD3 /* PostCell.swift */; };
 		9CA023423B84AA33212156AC /* Pods_edigram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24168AA4E5DBB5DCF5B4388A /* Pods_edigram.framework */; };
@@ -55,6 +56,7 @@
 		398CB7A32408A09E00A9A5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39AB28822408AC5400F20BA7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		39AB28842408AC6200F20BA7 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		39CF13352411DDB200F096CC /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		39FBB3BE2408B7C3007D3FD3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		39FBB3C02408C085007D3FD3 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		3FC0C84A0EDB1B9BED308643 /* Pods-edigram-edigramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edigram-edigramUITests.debug.xcconfig"; path = "Target Support Files/Pods-edigram-edigramUITests/Pods-edigram-edigramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				39AB28842408AC6200F20BA7 /* FeedViewController.swift */,
 				39FBB3BE2408B7C3007D3FD3 /* CameraViewController.swift */,
 				39FBB3C02408C085007D3FD3 /* PostCell.swift */,
+				39CF13352411DDB200F096CC /* CommentCell.swift */,
 			);
 			path = edigram;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				39AB28852408AC6200F20BA7 /* FeedViewController.swift in Sources */,
 				398CB7822408A09D00A9A5FF /* AppDelegate.swift in Sources */,
 				39FBB3C12408C085007D3FD3 /* PostCell.swift in Sources */,
+				39CF13362411DDB200F096CC /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

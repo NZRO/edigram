@@ -1,0 +1,6 @@
+framework module Pods_edigram_edigramUITests {
+  umbrella header "Pods-edigram-edigramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
